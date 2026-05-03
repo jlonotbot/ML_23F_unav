@@ -1,0 +1,25 @@
+{
+  "rutas": {
+    "csv_principal": "23f_scrappedDF.csv",
+    "output_statements": "outputs/statements_extraidos.csv",
+    "output_embeddings": "outputs/embeddings.csv",
+    "output_contradicciones": "outputs/reporte_mismo_declarante.csv",
+    "output_contradicciones_entre_declarantes": "outputs/contradicciones_entre_declarantes.csv",
+    "output_reporte_completo": "outputs/reporte_completo.csv"
+  },
+  "modelos": {
+    "embeddings": "paraphrase-multilingual-mpnet-base-v2",
+    "nli": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"
+  },
+  "parametros": {
+    "similitud_minima": 0.55,
+    "confianza_contradiccion_minima": 0.55,
+    "min_palabras_statement": 6,
+    "max_vecinos_nli": 10,
+    "n_clusters_hechos": 25,
+    "similitud_minima_entre_declarantes": 0.55
+    "similitud_minima_declarante": 0.8,
+    "min_tokens_declarante": 2,
+    "max_tokens_declarante": 6
+  }
+}
