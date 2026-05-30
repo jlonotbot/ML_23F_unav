@@ -17,7 +17,7 @@
     "min_palabras_statement": 6,
     "max_vecinos_nli": 10,
     "n_clusters_hechos": 25,
-    "similitud_minima_entre_declarantes": 0.55
+    "similitud_minima_entre_declarantes": 0.55,
     "similitud_minima_declarante": 0.8,
     "min_tokens_declarante": 2,
     "max_tokens_declarante": 6
